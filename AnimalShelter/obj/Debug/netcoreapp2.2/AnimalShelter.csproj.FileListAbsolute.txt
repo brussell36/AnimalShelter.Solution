@@ -1,0 +1,14 @@
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\bin\Debug\netcoreapp2.2\AnimalShelter.deps.json
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\bin\Debug\netcoreapp2.2\AnimalShelter.runtimeconfig.json
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\bin\Debug\netcoreapp2.2\AnimalShelter.runtimeconfig.dev.json
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\bin\Debug\netcoreapp2.2\AnimalShelter.dll
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\bin\Debug\netcoreapp2.2\AnimalShelter.pdb
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.csprojAssemblyReference.cache
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.csproj.CoreCompileInputs.cache
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.RazorAssemblyInfo.cache
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.RazorAssemblyInfo.cs
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.AssemblyInfoInputs.cache
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.AssemblyInfo.cs
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.RazorTargetAssemblyInfo.cache
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.dll
+C:\Users\benja\Desktop\web-development\AnimalShelter.Solution\AnimalShelter\obj\Debug\netcoreapp2.2\AnimalShelter.pdb
