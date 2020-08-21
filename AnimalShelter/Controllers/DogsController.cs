@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AnimalShelter.Models;
@@ -58,6 +59,17 @@ namespace AnimalShelter.Controllers
       var dogToDelete = _db.Dogs.FirstOrDefault(entry => entry.DogId == id);
       _db.Dogs.Remove(dogToDelete);
       _db.SaveChanges();
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAll([FromQuery] UrlQuery urlQuery)
+    {
+      var validUrlQuery = new UrlQuery(urlQuery.PageNumber, urlQuery.PageSize);
+      var pagedData = _db.Cats
+        .OrderBy(thing => thing.CatId)
+        .Skip((validUrlQuery.PageNumber - 1) * validUrlQuery.PageSize)
+        .Take(validUrlQuery.PageSize);
+      return Ok(pagedData);
     }
   }
 }
