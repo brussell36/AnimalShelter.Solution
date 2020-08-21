@@ -58,6 +58,7 @@ DELETE /api/dogs/{id}
 ## Path Parameters
 
 | Parameter | Type | Default | Required | Description |
+| --------- | ---- | ------- | -------- | ----------- |
 | name | string | none | false | Returns matches by name. |
 | gender | string | none | false | Returns matches by gender. |
 
