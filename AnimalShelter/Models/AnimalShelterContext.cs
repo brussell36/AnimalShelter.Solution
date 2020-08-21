@@ -20,7 +20,7 @@ namespace AnimalShelter.Models
           new Cat { CatId = 2, Name = "Jazz", Story = "Biggest cuddler and sweetest boy.", Age = 6, Gender = "Male"},
           new Cat { CatId = 3, Name = "Raisin", Story = "Will follow you wherever you go.", Age = 1, Gender = "Female"},
           new Cat { CatId = 4, Name = "Maya", Story = "Knows what she wants and how to manipulate you to get it.", Age = 2, Gender = "Female"},
-          new Cat { CatId = 5, Name = "Shiva", Story = "She is has always been that small and always will be.", Age = 7, Gender = "Female"}
+          new Cat { CatId = 5, Name = "Shiva", Story = "She has always been that small and always will be.", Age = 7, Gender = "Female"}
         );
 
       builder.Entity<Dog>()
