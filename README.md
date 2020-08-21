@@ -30,10 +30,10 @@ _The API will have several cats and dogs already seeded to the database, but wil
 
 | Behavior | Input | Output |
 | -------- | ----- | ------ |
-| 1. This application will let a user log in and log out. Only logged in users will have create edit and delete functionality. All users should have read functionality |  |  |
-| 2. There will be a many-many relationship between Treats and Flavors. |  |  |
-| 3. As a librarian, I want to enter multiple authors for a book, so that I can include accurate information in my catalog. | Issac Asimov  | Cats Cradle by Kurt Vonnegut, Issac Asimov |
-| 4. A user will be able to navigate to a splash page that lists all treats and flavors. Users should be able to click on an individual treat or flavor to see all the treats/flavors that belong to it.|  |  |
+| 1. Users will be able to look up all cats or dogs. | localhost:5000/api/cats or dogs | Full list of all cats or dogs |
+| 2. Users will be able to query for specific names. | localhost:5000/api/cats/?name=Flash | Show details for a cat named Flash |
+| 3. Users will be able to query for genders. | localhost:5000/api/dogs/?gender=Female | Show details of all female dogs in database |
+| 4. Users will be able to look up details of specific Ids of cats and dogs.| localhost:5000/api/cats/3 | Raisin's details |
 
 
 ## Known Bugs
