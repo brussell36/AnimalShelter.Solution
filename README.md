@@ -79,6 +79,10 @@ DELETE /api/dogs/{id}
 }
 ```
 
+## Using Swagger Documentation
+
+To explore the AnimalShelter API with Swashbuckle, launch the project with `dotnet run` in the terminal or powershell. Then input the following URL into your browser: `http://localhost:5000/swagger`
+
 ## Note on Pagination
 
 The AnimalShelter API returns a default of 20 results per page at a time, up to a maximum of 1000.
