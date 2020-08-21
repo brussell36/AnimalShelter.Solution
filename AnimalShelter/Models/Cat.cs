@@ -7,5 +7,6 @@ namespace AnimalShelter.Models
     public string Story { get; set; }
     public int Age { get; set; }
     public string Gender { get; set; }
+    public string ImageUrl { get; set; }
   }
 }
