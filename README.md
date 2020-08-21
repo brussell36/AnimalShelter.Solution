@@ -48,6 +48,34 @@ GET /api/cats/{id}
 PUT /api/cats/{id}
 DELETE /api/cats/{id}
 ```
+```
+GET /api/dogs
+POST /api/dogs
+GET /api/dogs/{id}
+PUT /api/dogs/{id}
+DELETE /api/dogs/{id}
+```
+## Path Parameters
+
+| Parameter | Type | Default | Required | Description |
+| name | string | none | false | Returns matches by name. |
+| gender | string | none | false | Returns matches by gender. |
+
+## Example Query
+
+```https://localhost:5000/api/cats/?gender=female&name=Maya```
+
+## Sample JSON Response
+
+```
+{
+  "Id": 2,
+  "Name": "Jazz",
+  "Story": "Biggest cuddler and sweetest boy.",
+  "Age": 6,
+  "Gender": "Male"
+}
+```
 
 ## Known Bugs
 
