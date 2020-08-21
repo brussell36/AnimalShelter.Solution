@@ -61,7 +61,7 @@ namespace AnimalShelter.Controllers
       _db.SaveChanges();
     }
 
-    [HttpGet]
+    [HttpGet("pages")]
     public async Task<IActionResult> GetAll([FromQuery] UrlQuery urlQuery)
     {
       var validUrlQuery = new UrlQuery(urlQuery.PageNumber, urlQuery.PageSize);
