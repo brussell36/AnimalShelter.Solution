@@ -77,6 +77,12 @@ DELETE /api/dogs/{id}
 }
 ```
 
+## Note on Pagination
+
+_The AnimalShelter API returns a default of 20 results per page at a time, up to a maximum of 1000._
+
+_To modify this, use the query parameters `limit` and `start` to alter the response results that display. The `limit` parameter will specify how many results will be displayed, and the `start` parameter will specify which element in the response the limit should start counting._
+
 ## Known Bugs
 
 _No known issues. Please contact me if you have any problems._
