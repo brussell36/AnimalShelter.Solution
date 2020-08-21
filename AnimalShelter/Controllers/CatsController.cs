@@ -59,5 +59,7 @@ namespace AnimalShelter.Controllers
       _db.Cats.Remove(catToDelete);
       _db.SaveChanges();
     }
+
+    [HttpGet]
   }
 }
