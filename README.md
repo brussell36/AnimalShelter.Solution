@@ -7,7 +7,7 @@
 
 ## Description
 
-_The API will have several cats and dogs already seeded to the database, but will allow for full CRUD functionality so more can be added. The data will be able to be edited and deleted when something in the animals history changes or more photos uploaded. The delete will be for when an animal has been adopted to a new happy family._
+The API will have several cats and dogs already seeded to the database, but will allow for full CRUD functionality so more can be added. The data will be able to be edited and deleted when something in the animals history changes or more photos uploaded. The delete will be for when an animal has been adopted to a new happy family.
 
 ## Setup/Installation Requirements
 
@@ -37,7 +37,7 @@ _The API will have several cats and dogs already seeded to the database, but wil
 
 ## Animal Shelter
 
-_Access information on Cats and Dogs currently at the shelter._
+Access information on Cats and Dogs currently at the shelter.
 
 ## Http Request
 
@@ -81,13 +81,13 @@ DELETE /api/dogs/{id}
 
 ## Note on Pagination
 
-_The AnimalShelter API returns a default of 20 results per page at a time, up to a maximum of 1000._
+The AnimalShelter API returns a default of 20 results per page at a time, up to a maximum of 1000.
 
-_To modify this, use the query parameters `limit` and `start` to alter the response results that display. The `limit` parameter will specify how many results will be displayed, and the `start` parameter will specify which element in the response the limit should start counting._
+To modify this, use the query parameters `limit` and `start` to alter the response results that display. The `limit` parameter will specify how many results will be displayed, and the `start` parameter will specify which element in the response the limit should start counting.
 
 ## Known Bugs
 
-_No known issues. Please contact me if you have any problems._
+No known issues. Please contact me if you have any problems.
 
 
 ## Support and contact details
