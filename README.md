@@ -11,7 +11,7 @@ _The API will have several cats and dogs already seeded to the database, but wil
 
 ## Setup/Installation Requirements
 
-* Clone this repository from GitHub https://github.com/brussell36/SweetSavory.Solution.git
+* Clone this repository from GitHub https://github.com/brussell36/AnimalShelter.Solution.git
 * Open the downloaded directory in a text editor of your choice. (VSCode, Atom, etc.)
 * Install [.Net Core](https://dotnet.microsoft.com/download/dotnet-core/2.2) 
 * To install the REPL dotnet script, run ```dotnet tool install -g dotnet-script``` in your terminal.
@@ -20,7 +20,7 @@ _The API will have several cats and dogs already seeded to the database, but wil
 
 #### Additional Setup/Installation Notes:
 
-* You will need to have MySQL installed on your computer to start the database for this project. 
+* You will need to have [MySQL](https://www.mysql.com/) installed on your computer to start the database for this project. 
 * Once you have it installed open your terminal and run ```mysql -uroot -pepicodus```. This will start the mysql server on your computer. 
 * With mysql running in your terminal copy/paste the code snippet below.
 * Run ```dotnet ef migrations add Initial``` and ```dotnet ef database update``` to create the schema and all required tables.
