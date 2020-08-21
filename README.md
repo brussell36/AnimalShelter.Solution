@@ -35,6 +35,19 @@ _The API will have several cats and dogs already seeded to the database, but wil
 | 3. Users will be able to query for genders. | localhost:5000/api/dogs/?gender=Female | Show details of all female dogs in database |
 | 4. Users will be able to look up details of specific Ids of cats and dogs.| localhost:5000/api/cats/3 | Raisin's details |
 
+## Animal Shelter
+
+_Access information on Cats and Dogs currently at the shelter._
+
+## Http Request
+
+```
+GET /api/cats
+POST /api/cats
+GET /api/cats/{id}
+PUT /api/cats/{id}
+DELETE /api/cats/{id}
+```
 
 ## Known Bugs
 
