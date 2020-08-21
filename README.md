@@ -70,11 +70,12 @@ DELETE /api/dogs/{id}
 
 ```
 {
-  "Id": 2,
-  "Name": "Jazz",
-  "Story": "Biggest cuddler and sweetest boy.",
-  "Age": 6,
-  "Gender": "Male"
+  "catId": 2,
+  "name": "Jazz",
+  "story": "Biggest cuddler and sweetest boy.",
+  "age": 6,
+  "gender": "Male"
+  "imageUrl": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_weight_other/1800x1200_cat_weight_other.jpg?resize=600px:*"
 }
 ```
 
@@ -102,7 +103,6 @@ Please feel free to contact me through GitHub (username: brussell36) with any qu
 * MySQL Workbench
 * MySQL Database
 * Entity Framework
-
 
 ### License
 
