@@ -81,13 +81,15 @@ DELETE /api/dogs/{id}
 
 ## Using Swagger Documentation
 
-To explore the AnimalShelter API with Swashbuckle, launch the project with `dotnet run` in the terminal or powershell. Then input the following URL into your browser: `http://localhost:5000/swagger`
+To explore the AnimalShelter API with Swashbuckle, launch the project with `dotnet run` in the terminal or powershell. Then input the following URL into your browser: `http://localhost:5000`
 
 ## Note on Pagination
 
 The AnimalShelter API returns a default of 20 results per page at a time, up to a maximum of 1000.
 
-To modify this, use the query parameters `limit` and `start` to alter the response results that display. The `limit` parameter will specify how many results will be displayed, and the `start` parameter will specify which element in the response the limit should start counting.
+To modify this, use the query parameters `pageNumber` and `pageSize` to alter the response results that display. The `pageSize` parameter will specify how many results will be displayed, and the `pageNumber` parameter will specify which element in the response the pageSize should start counting.
+
+Here is a sample query: `localhost:5000/api/cats/pages?pageNumber=1&pageSize=2`
 
 ## Known Bugs
 
